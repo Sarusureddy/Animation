@@ -1,0 +1,63 @@
+<html>
+<head>
+    <title>Animation</title>
+    <link href="https://fonts.google.com/">
+    </head>
+    <body>
+    <center>
+        
+         <h1>my Animation</h1>
+        <br/>
+        <p>Here is my animation as below</p>
+        <img src="task%20image.jpg"/>
+        <p>Westlisoft, your trusted partner in the world of technology and innovation. We are a dynamic and forward-thinking company committed to delivering exceptional services in Digital Marketing, Application Development, Corporate Training and Staffing. Founded in 2022, Westlisoft was born out of a shared passion for harnessing the power of technology to drive positive change</p>
+    </body>
+     <style>
+         h1{
+             font-family: Rubik Bubbles;
+             color: red;
+             
+         }
+         p{
+             color: black;
+         }
+         body{
+             background: linear-gradient(to bottom,blue,yellow,pink);
+         }
+         div{
+             width: 150px;
+             height: 150px;
+             background-color: fuchsia;
+             animation-name: anime;
+             animation-duration: 7s;
+             animation-iteration-count: infinite;
+             position: relative;
+         }
+         @keyframes anime{
+             100%{background-color: blue;left: 0px;top: 0px;}
+             30%{background-color: greenyellow;left: 150px;top: 0px;}
+             50%{background-color: brown;left: 200px;top: 200px;}
+             70%{background-color: cyan;left: 0px;top: 200px;}
+             100%{background-color: blanchedalmond;left: 0px;top: 0px;}
+         }
+         img{
+             width: 250px;
+             height: 250px;
+             animation-name: image-anime;
+             animation-duration: 7s;
+             animation-iteration-count: infinite;
+             position: relative;
+             border-radius: 50%;
+                
+         }
+         @keyframes image-anime{
+              100%{left: 0px;top: 0px;}
+             30%{left: 150px;top: 0px;}
+             50%{left: 200px;top: 200px;}
+             70%{left: 0px;top: 200px;}
+             100%{left: 0px;top: 0px;}
+             
+        
+    </style>
+    
+    </html>
